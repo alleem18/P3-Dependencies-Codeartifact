@@ -9,7 +9,7 @@
 
 ## Store Dependencies with CodeArtifact
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-code-artifact_1d79e699)
+![Image](https://github.com/alleem18/P3-Dependencies-Codeartifact/blob/main/Image.jpeg)
 
 ---
 
@@ -41,7 +41,7 @@ The upstream repository is the point to the big library, helping us get and stor
 
 The public repository is ther vast package library on the internet where all sorts of tools and materials are stored. It's the primary source that supplies packages to other applications. 
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-code-artifact_ef93d32c)
+![Image](aws-devops-code-artifact_ef93d32c)
 
 ---
 
@@ -55,7 +55,7 @@ settings.xml is a configuration file for Maven that customizes build settings, i
 
 The snippets of code in the `settings.xml` file define custom configurations for Maven projects. These include specifying alternative locations for local repositories, configuring remote repository access, and managing credentials.
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-code-artifact_c17eace8)
+![Image](aws-devops-code-artifact_c17eace8)
 
 ---
 
@@ -69,7 +69,7 @@ Compiling is like translating your project’s code into a language that compute
 
 After compiling, I checked java-app-packages repository where I found package names and their details. 
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-code-artifact_1d79e699)
+![Image](aws-devops-code-artifact_1d79e699)
 
 ---
 
@@ -83,7 +83,7 @@ I also created an IAM policy I also created an IAM policy because
 
 This policy will give a service temporary security credentials to interact with CodeArtifact. AWS services will then use the credentials to request an authorization token (which is the GetAuthorizationToken action you've allowed) that lets them acce
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-code-artifact_9b2ded4f)
+![Image](aws-devops-code-artifact_9b2ded4f)
 
 ---
 
